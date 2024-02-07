@@ -1,0 +1,38 @@
+Erramun --> Resistencia y Atajando (Lunes)
+Fraco --> Resistencia y Atajando (Lunes)
+Piorno --> Velocidad y Entradas (Lunes)
+
+
+Data Analysis Intern (Instituto Universitario del Hospital Italiano)
+
+Worked along with other developer in the development of a ML algorithm for classifying brain tumors from CT (Computed Tomography) scan images.
+There we use radiomics, which are some specific caracteristics that can be found on this kind of images, and based on those statistics, ML algorithm can infer if the tumour is benign or not.
+We made the data pre processing, ML algorithm development and first training stage. Optimization was made by other group of more experienced developers.
+
+Eccosur (Python)
+
+I was the leader in a project where we change the stack of the signal analysis module for EKG signal analyzer.
+I lead a team of developers from UNL university that build the basis for the signal analyzer module. Once they finish the development of this module, I was the one responsible for optimizing the ML algorithm build to morphological classify heart beats.
+I worked along other developer (the one that codes the changes in Delphi, the original stack of the company's equipments) to achieve the communication among both systems. I developed the communication module on Python, where I used socket communication, multithreading, pickling & unpickling, logging to files and other Python functionalities.
+I also was the one that organized the testing sprints with the testing leader. I split every deliverable into tasks so he could assign the tasks to the members of his team.
+
+Biocodices (Python)
+
+I developed different scripts for data analysis and transformation.
+I work there with genomic data. They used different sequencers depending on the type of study needed which means different outputs. 
+To build the report for the patient, input must be the same so the system can analyze and parse the results to the report.
+So I build different Python scripts which takes the output of every sequencer and transform it to this standarized input for the reporting system.
+There, reading, trimming, aligning and pre-processing actions were taken using BEDtools, SAMtools, BLAST, among other tools.
+
+Personal Projects
+
+Cryptocurrency Trading Bot
+    • Based on Bollinger Bands and SMA, interacts with Binance API to place buying and selling orders based on certain criteria placed by the user. Data pre-processing from candles charts. Developed in Python and hosted in AWS EC2 instance for 24hrs operation.
+Conducted Data Analysis Report Building
+    • Created comprehensive reports detailing the company's performance over the past five years, utilizing Python and Pandas for data pre-processing, and Tableau for visualization.
+Developed Cryptocurrency Transactions Tracker
+    • Engineered a user-friendly GUI in Python to monitor various transactions, integrating CoinMarketCap API for real-time price updates, and supporting transactions in local currency or USD.
+Implemented Laboratory Information System
+    • Initiated a tracking system for blood samples in a laboratory, allowing users to create custom report templates, manage cases and samples, and upload results via CSV or Excel files for automated report generation. 
+    • Developed in Django, using PostgresDB and classic front-end technologies.
+Implemented a ChatBot in Flask that physicians can use to retrieve information from the different services running during the night in the hospital.
